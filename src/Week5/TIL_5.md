@@ -39,7 +39,7 @@ Service가 쓸 Repository를 스스로 new로 만들면, 나중에 바꾸려면 
 <img width="1280" height="832" alt="스크린샷 2026-05-10 오후 2 14 10" src="https://github.com/user-attachments/assets/c6ba0ccb-1bc4-4548-b1db-7c2808ddb614" />
 <img width="1280" height="832" alt="스크린샷 2026-05-10 오후 2 14 18" src="https://github.com/user-attachments/assets/563625fa-8bb7-4f6f-9730-8336c893f90c" />
 <img width="1280" height="832" alt="스크린샷 2026-05-10 오후 2 14 21" src="https://github.com/user-attachments/assets/b2ac12f9-6835-40f6-a632-87c335ebae1f" />
-<img width="1392" height="855" alt="스크린샷 2026-05-10 오후 2 18 06" src="https://github.com/user-attachments/assets/919bfa15-37d0-49c3-94d8-ec34ca736aa9" />
+
 (step 2)
 <img width="1280" height="832" alt="스크린샷 2026-05-10 오후 2 10 39(s2)" src="https://github.com/user-attachments/assets/fd188b03-2aea-4c3a-bd26-580bda64c6b1" />
 <img width="1280" height="832" alt="스크린샷 2026-05-10 오후 2 10 43(s2)" src="https://github.com/user-attachments/assets/11b14020-2c1d-4f5b-bcba-a958a636db28" />
