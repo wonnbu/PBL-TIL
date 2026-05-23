@@ -1,6 +1,6 @@
-package com.likelion.springboot_week6.repository;
+package repository;
 
-import com.likelion.springboot_week6.role.Role;
+import domain.Role;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -15,8 +15,8 @@ import java.util.List;
  * 나중에 FileMemberRepository, DatabaseMemberRepository 등
  * 다른 구현체를 만들어 교체할 수 있다.
  */
-@Repository//이 클래스는 저장소 역할이니까 Bean으로 등록하라는 뜻
-public class MemoryMemberRepository implements com.likelion.springboot_week6.repository.MemberRepository {
+@Repository // 이 클래스는 저장소 역할이니까 Bean으로 등록하라는 뜻
+public class MemoryMemberRepository implements MemberRepository {
     private List<Role> members = new ArrayList<>();
 
     @Override
@@ -48,5 +48,19 @@ public class MemoryMemberRepository implements com.likelion.springboot_week6.rep
         }
         return false;
     }
-}
 
+    @Override
+    public void updateByName(String name, Role member) {
+        for (int i = 0; i < members.size(); i++) {
+            if (members.get(i).getName().equals(name)) {
+                members.set(i, member);
+                return;
+            }
+        }
+    }
+
+    @Override
+    public boolean deleteByName(String name) {
+        return members.removeIf(member -> member.getName().equals(name));
+    }
+}
