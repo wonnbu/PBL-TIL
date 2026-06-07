@@ -1,26 +1,30 @@
-package com.example.week9.service;
+package com.example.week9.member.service;
 
-import com.example.week9.domain.Member;
-import com.example.week9.domain.RoleType;
-import com.example.week9.dto.LionCreateRequest;
-import com.example.week9.dto.LionUpdateRequest;
-import com.example.week9.dto.MemberResponse;
-import com.example.week9.dto.StaffCreateRequest;
-import com.example.week9.dto.StaffUpdateRequest;
+import com.example.week9.member.domain.Member;
+import com.example.week9.member.domain.RoleType;
+import com.example.week9.member.dto.LionCreateRequest;
+import com.example.week9.member.dto.LionUpdateRequest;
+import com.example.week9.member.dto.MemberResponse;
+import com.example.week9.member.dto.StaffCreateRequest;
+import com.example.week9.member.dto.StaffUpdateRequest;
 import org.springframework.stereotype.Service;
-import com.example.week9.repository.MemberRepository;
+import com.example.week9.member.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
+@Transactional(readOnly = true)
 public class MemberService {
 
     private final MemberRepository memberRepository;
+
 
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
+    @Transactional
     public MemberResponse createLion(LionCreateRequest request) {
         Member member = new Member(
                 request.getName(),
@@ -36,6 +40,7 @@ public class MemberService {
         return MemberResponse.from(savedMember);
     }
 
+    @Transactional
     public MemberResponse createStaff(StaffCreateRequest request) {
         Member member = new Member(
                 request.getName(),
@@ -68,6 +73,7 @@ public class MemberService {
         return MemberResponse.from(member);
     }
 
+    @Transactional
     public MemberResponse updateLion(Long id, LionUpdateRequest request) {
         Member member = memberRepository.findById(id).orElse(null);
 
@@ -87,6 +93,7 @@ public class MemberService {
         return MemberResponse.from(savedMember);
     }
 
+    @Transactional
     public MemberResponse updateStaff(Long id, StaffUpdateRequest request) {
         Member member = memberRepository.findById(id).orElse(null);
 
@@ -106,6 +113,7 @@ public class MemberService {
         return MemberResponse.from(savedMember);
     }
 
+    @Transactional
     public void deleteById(Long id) {
         memberRepository.deleteById(id);
     }

@@ -1,11 +1,11 @@
-package com.example.week9.dto;
+package com.example.week9.member.dto;
 
-public class LionUpdateRequest {
+public class StaffCreateRequest {
     private String name;
     private String major;
     private String part;
     private int generation;
-    private String studentId;
+    private String position;
 
     public String getName() {
         return name;
@@ -23,7 +23,7 @@ public class LionUpdateRequest {
         return generation;
     }
 
-    public String getStudentId() {
-        return studentId;
+    public String getPosition() {
+        return position;
     }
 }

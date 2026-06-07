@@ -1,4 +1,4 @@
-package com.example.week8.dto;
+package com.example.week9.dto;
 
 public class StaffUpdateRequest {
     private String name;

@@ -1,6 +1,6 @@
-package com.example.week9.dto;
+package com.example.week9.member.dto;
 
-public class LionUpdateRequest {
+public class LionCreateRequest {
     private String name;
     private String major;
     private String part;

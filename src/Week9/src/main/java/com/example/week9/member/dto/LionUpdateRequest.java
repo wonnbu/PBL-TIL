@@ -1,4 +1,4 @@
-package com.example.week9.dto;
+package com.example.week9.member.dto;
 
 public class LionUpdateRequest {
     private String name;
