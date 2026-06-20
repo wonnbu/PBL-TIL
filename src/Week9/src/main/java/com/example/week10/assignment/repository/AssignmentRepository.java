@@ -1,6 +1,6 @@
-package com.example.week9.assignment.repository;
+package com.example.week10.assignment.repository;
 
-import com.example.week9.assignment.domain.Assignment;
+import com.example.week10.assignment.domain.Assignment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.example.week9.assignment.controller;
+package com.example.week10.assignment.controller;
 
-import com.example.week9.assignment.dto.AssignmentCreateRequest;
-import com.example.week9.assignment.dto.AssignmentResponse;
-import com.example.week9.assignment.dto.AssignmentUpdateRequest;
-import com.example.week9.assignment.service.AssignmentService;
+import com.example.week10.assignment.dto.AssignmentCreateRequest;
+import com.example.week10.assignment.dto.AssignmentResponse;
+import com.example.week10.assignment.dto.AssignmentUpdateRequest;
+import com.example.week10.assignment.service.AssignmentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

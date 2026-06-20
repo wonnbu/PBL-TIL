@@ -1,7 +1,7 @@
-package com.example.week9.assignment.domain;
+package com.example.week10.assignment.domain;
 
 import jakarta.persistence.*;
-import com.example.week9.member.domain.Member;
+import com.example.week10.member.domain.Member;
 
 @Entity
 public class Assignment {

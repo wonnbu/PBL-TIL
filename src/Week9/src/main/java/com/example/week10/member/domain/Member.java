@@ -1,6 +1,6 @@
-package com.example.week9.member.domain;
+package com.example.week10.member.domain;
 
-import com.example.week9.assignment.domain.Assignment;
+import com.example.week10.assignment.domain.Assignment;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package com.example.week9.assignment.dto;
+package com.example.week10.assignment.dto;
 
-import com.example.week9.assignment.domain.Assignment;
+import com.example.week10.assignment.domain.Assignment;
 
 public class AssignmentResponse {
 

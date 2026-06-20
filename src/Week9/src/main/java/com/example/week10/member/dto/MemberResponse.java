@@ -1,6 +1,6 @@
-package com.example.week9.member.dto;
+package com.example.week10.member.dto;
 
-import com.example.week9.member.domain.Member;
+import com.example.week10.member.domain.Member;
 
 public class MemberResponse {
 

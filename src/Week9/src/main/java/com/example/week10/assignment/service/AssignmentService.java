@@ -1,12 +1,12 @@
-package com.example.week9.assignment.service;
+package com.example.week10.assignment.service;
 
-import com.example.week9.assignment.domain.Assignment;
-import com.example.week9.assignment.dto.AssignmentCreateRequest;
-import com.example.week9.assignment.dto.AssignmentResponse;
-import com.example.week9.assignment.dto.AssignmentUpdateRequest;
-import com.example.week9.assignment.repository.AssignmentRepository;
-import com.example.week9.member.domain.Member;
-import com.example.week9.member.repository.MemberRepository;
+import com.example.week10.assignment.domain.Assignment;
+import com.example.week10.assignment.dto.AssignmentCreateRequest;
+import com.example.week10.assignment.dto.AssignmentResponse;
+import com.example.week10.assignment.dto.AssignmentUpdateRequest;
+import com.example.week10.assignment.repository.AssignmentRepository;
+import com.example.week10.member.domain.Member;
+import com.example.week10.member.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

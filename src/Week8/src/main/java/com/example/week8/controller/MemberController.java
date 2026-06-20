@@ -1,13 +1,13 @@
-package com.example.week9.controller;
+package com.example.week10.controller;
 
-import com.example.week9.dto.LionCreateRequest;
-import com.example.week9.dto.LionUpdateRequest;
-import com.example.week9.dto.MemberResponse;
-import com.example.week9.dto.StaffCreateRequest;
-import com.example.week9.dto.StaffUpdateRequest;
+import com.example.week10.dto.LionCreateRequest;
+import com.example.week10.dto.LionUpdateRequest;
+import com.example.week10.dto.MemberResponse;
+import com.example.week10.dto.StaffCreateRequest;
+import com.example.week10.dto.StaffUpdateRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import com.example.week9.service.MemberService;
+import com.example.week10.service.MemberService;
 
 import java.util.List;
 

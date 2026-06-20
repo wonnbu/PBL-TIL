@@ -1,4 +1,4 @@
-package com.example.week9.domain;
+package com.example.week10.domain;
 
 public enum RoleType {
     LION("아기사자"),

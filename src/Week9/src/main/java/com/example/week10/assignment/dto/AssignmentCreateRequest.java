@@ -1,4 +1,4 @@
-package com.example.week9.assignment.dto;
+package com.example.week10.assignment.dto;
 
 public class AssignmentCreateRequest {
 

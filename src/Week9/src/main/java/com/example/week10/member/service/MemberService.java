@@ -1,14 +1,14 @@
-package com.example.week9.member.service;
+package com.example.week10.member.service;
 
-import com.example.week9.member.domain.Member;
-import com.example.week9.member.domain.RoleType;
-import com.example.week9.member.dto.LionCreateRequest;
-import com.example.week9.member.dto.LionUpdateRequest;
-import com.example.week9.member.dto.MemberResponse;
-import com.example.week9.member.dto.StaffCreateRequest;
-import com.example.week9.member.dto.StaffUpdateRequest;
+import com.example.week10.member.domain.Member;
+import com.example.week10.member.domain.RoleType;
+import com.example.week10.member.dto.LionCreateRequest;
+import com.example.week10.member.dto.LionUpdateRequest;
+import com.example.week10.member.dto.MemberResponse;
+import com.example.week10.member.dto.StaffCreateRequest;
+import com.example.week10.member.dto.StaffUpdateRequest;
 import org.springframework.stereotype.Service;
-import com.example.week9.member.repository.MemberRepository;
+import com.example.week10.member.repository.MemberRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
